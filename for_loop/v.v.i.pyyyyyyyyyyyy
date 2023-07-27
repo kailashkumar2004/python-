@@ -1,0 +1,54 @@
+names = [
+    {"name": "manvi", "age": "20"},
+    {"name": "kailash", "age": "18"},
+    {"name": "Savita", "role": 20, "age": "20"},
+    {"name": "suman", "role": 2, "age": "25"},
+    {"name": "sara", "role": 5, "age": "26"}
+    {"name":"khusbhu","age":29}
+    ("name":"punam","age":27)
+]
+output = []
+
+for item in names:
+    if "age" in item and int(item["age"]) >20:
+        output.append(item)
+
+print(output)
+
+
+
+
+
+names = [
+    {"name": "manvi", "age": "20"},
+    {"name": "kailash", "age": "18"},
+    {"name": "Savita", "role": 20, "age": "20"},
+    {"name": "suman", "role": 2, "age": "25"},
+    {"name": "sara", "role": 5, "age": "26"}
+]
+output = []
+
+for item in names:
+    if "age" in item and int(item["age"]) >= 20:
+        output.append(item)
+
+print(output)
+
+
+
+
+
+names = [
+    {"name": "manvi", "age": "20"},
+    {"name": "kailash", "age": "18"},
+    {"name": "Savita", "role": 20, "age": "20"},
+    {"name": "suman", "role": 2, "age": "25"},
+    {"name": "sara", "role": 5, "age": "26"}
+]
+output = []
+
+for item in names:
+    if "age" in item and int(item["age"]) < 20:
+        output.append(item)
+
+print(output)
